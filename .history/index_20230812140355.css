@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +33,7 @@
 
 .box-container p {
   width: 700px;
+  height: 178px;
   color: #000;
   font-family: Roboto;
   font-size: 20px;
@@ -44,37 +44,31 @@
 
 .box-container ul {
   display: flex;
-  align-items: center;
-  margin-top: 35px;
 }
 
-ul li {
-  list-style-type: none;
-}
-.list-1 img {
+.ul li {
   width: 190px;
   height: 169px;
+  border-radius: 400px;
+  border: 80px;
+  list-style-type: none;
 }
 
-.list-2 {
-  margin-left: 30px;
+.li-1 {
+  margin: 30px;
+  list-style-type: none;
 }
 
-.list-2 img {
-  width: 18.533px;
-  height: 17.954px;
+.li-1 img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
-.list-2 h2 {
-  margin-bottom: 28px;
+.li-1 h2 {
+  margin: 50px 0 127px 30px;
   color: #000;
   font-family: Roboto Slab;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 101.385%;
-}
-.list-2 img {
-  width: 32px;
-  height: 31px;
 }

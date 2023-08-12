@@ -61,8 +61,7 @@ ul li {
 }
 
 .list-2 img {
-  width: 18.533px;
-  height: 17.954px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .list-2 h2 {

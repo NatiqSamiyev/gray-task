@@ -44,11 +44,11 @@
 
 .box-container ul {
   display: flex;
-  align-items: center;
-  margin-top: 35px;
 }
 
 ul li {
+  border-radius: 400px;
+  border: 80px;
   list-style-type: none;
 }
 .list-1 img {
@@ -57,24 +57,19 @@ ul li {
 }
 
 .list-2 {
-  margin-left: 30px;
+  margin: 30px;
 }
 
 .list-2 img {
-  width: 18.533px;
-  height: 17.954px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .list-2 h2 {
-  margin-bottom: 28px;
+  margin: 50px 0 127px 30px;
   color: #000;
   font-family: Roboto Slab;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 101.385%;
-}
-.list-2 img {
-  width: 32px;
-  height: 31px;
 }
